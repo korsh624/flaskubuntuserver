@@ -30,8 +30,11 @@ sudo nano /etc/ufw/applications.d/flask
 
 ----------------------------------------
 [Flask]
+
 title=Flask server
+
 description=Flask development server, do not use it on prodaction
+
 ports=5000/tcp
 ---------------------------------------
 **Смотрим что естьв правилах**
